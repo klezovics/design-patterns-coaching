@@ -17,6 +17,6 @@ public class ShapeRegistry {
     }
 
     public Shape get(String key) {
-       return nameToShape.get(key);
+       return nameToShape.get(key).clone();
     }
 }
