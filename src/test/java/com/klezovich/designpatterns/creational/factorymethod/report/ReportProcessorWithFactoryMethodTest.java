@@ -4,6 +4,7 @@ import com.klezovich.designpatterns.creational.factorymethod.report.printer.prov
 import com.klezovich.designpatterns.creational.factorymethod.report.printer.provider.XmlReportPrinterProvider;
 import org.junit.jupiter.api.Test;
 
+//TODO: Read this https://refactoring.guru/design-patterns/factory-method
 class ReportProcessorWithFactoryMethodTest {
 
     private Report report = new Report(1L, "Hello report");
