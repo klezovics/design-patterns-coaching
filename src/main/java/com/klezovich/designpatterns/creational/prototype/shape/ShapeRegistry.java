@@ -1,4 +1,4 @@
-package com.klezovich.designpatterns.creational.prototype;
+package com.klezovich.designpatterns.creational.prototype.shape;
 
 import java.util.HashMap;
 import java.util.Map;

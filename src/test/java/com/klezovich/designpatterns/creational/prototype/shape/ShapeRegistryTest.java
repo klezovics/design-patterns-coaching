@@ -1,5 +1,8 @@
-package com.klezovich.designpatterns.creational.prototype;
+package com.klezovich.designpatterns.creational.prototype.shape;
 
+import com.klezovich.designpatterns.creational.prototype.shape.Circle;
+import com.klezovich.designpatterns.creational.prototype.shape.Rectangle;
+import com.klezovich.designpatterns.creational.prototype.shape.ShapeRegistry;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
