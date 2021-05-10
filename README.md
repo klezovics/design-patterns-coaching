@@ -17,9 +17,24 @@ They can be divided into two parts:
  1.2) Singleton -> Spring @Component, @Service, @Repository. Thank you, Spring !
  
 2) Complex -> need to implement yourself
+ 2.1) Prototype -> allows to clone stuff
+ 
+ 2.2) Factory method -> all factories produce a single product. 
+ Single product == same interface. However, concrete classes differ for each factory.
+ 
+ 2.3) Abstract factory -> a single factory produces a related family of products.
+ Each product family consists of the same set of interfaces. Only implementing classes
+ differ by factory
+
+Now, let's look at the complex ones ... they allow to do 2 things ...
+
+1) Create new objects 
+ 1.1) Factory method 
+ 1.2) Abstract factory
+ 
+2) Clone existing objects
  2.1) Prototype
- 2.2) Factory method 
- 2.3) Abstract factory
+
 
 
 *) Prototype
