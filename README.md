@@ -5,9 +5,21 @@ Patterns come in 3 types:
 2) Structural
 3) Behavioural 
 
+Next steps: SOLID principles : https://www.youtube.com/watch?v=StWB7NJjPZc&t=2091s&ab_channel=TechTrain
 
 == Creational == 
 These are patterns of object creation, which solve specific problems.
+
+They can be divided into two parts:
+1) Easy -> 
+ 1.1) Builder -> Lombok @Builder. Thank you, Lombok !
+ 1.2) Singleton -> Spring @Component, @Service, @Repository. Thank you, Spring !
+ 
+2) Complex -> need to implement yourself
+ 2.1) Prototype
+ 2.2) Factory method 
+ 2.3) Abstract factory
+
 
 *) Prototype
 
