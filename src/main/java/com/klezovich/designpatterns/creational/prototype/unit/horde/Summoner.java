@@ -15,6 +15,10 @@ public class Summoner {
         return summonBook.summon(unitName);
     }
 
+    public Unit clone(Unit u) {
+        return u.clone();
+    }
+
     @Data
     static class SummonBook {
 

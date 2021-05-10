@@ -20,5 +20,11 @@ class SummonerTest {
 
         var unit3 = summoner.summon("tauren");
         System.out.println(unit3);
+
+        var unit4 = summoner.clone(unit3);
+        System.out.println(unit4);
+
+        assertFalse(unit3 == unit4);
+        assertTrue(unit4.equals(unit3));
     }
 }
