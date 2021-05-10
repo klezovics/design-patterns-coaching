@@ -4,6 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+//TODO: Read this https://refactoring.guru/design-patterns/prototype
 class ShapeTest {
 
     @Test
