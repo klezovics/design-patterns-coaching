@@ -11,6 +11,7 @@ Next steps: SOLID principles : https://www.youtube.com/watch?v=StWB7NJjPZc&t=209
 These are patterns of object creation, which solve specific problems.
 
 They can be divided into two parts:
+
 1) Easy -> have an easy implementation
  1.1) Builder -> Lombok @Builder. Thank you, Lombok !
  1.2) Singleton -> Spring @Component, @Service, @Repository. Thank you, Spring !
